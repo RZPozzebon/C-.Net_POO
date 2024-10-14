@@ -1,0 +1,39 @@
+@model Projeto_Estudo_dotnet.Models.model.Cliente;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <script src="~/js/jsProject/ClienteIndex.js"></script>
+</head>
+
+<div>
+    <h1 class="link-info">Cadastro de Cliente</h1>
+    <p>---------------------------------------------</p>
+    <form class="form">
+        <input id="nome1" type="text" class="input">
+        <button type="button" onclick="TrocarDados()">Trocar dados</button>
+        <input id="Nome2" type="text" class="input">
+    </form>
+</div>
+<br>
+<br>
+
+<div class="class form table">
+    <div class="row" style="color: blue;">
+        <label class="label">Nome Cliente</label>
+        <input id="nomeCliente" type="text" class="input">
+        <label class="label">CPF</label>
+        <input id="cpfCliente" type="text">
+        <label class="label">CNPJ</label>
+        <input id="cpfCliente" type="text">
+        <label class="label">Telefone</label>
+        <input id="cpfCliente" type="text">
+        <label class="label">E-mail</label>
+        <input id="cpfCliente" type="text" class="input">
+    </div>
+    <div>
+        <button id="btnSalvar">Salvar Dados</button>
+    </div>
+</div>
